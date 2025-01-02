@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
 
-    <div className="all_mina_nav">
+    <div className="all_mina_nav z-[100]">
       <div className="container">
         <div className="mina_nav">
 

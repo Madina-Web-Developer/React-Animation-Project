@@ -1,0 +1,136 @@
+
+
+
+.all_mina_Banner{
+
+    @apply bg-[#fff7cf] w-full h-screen
+}
+
+.text_part .heading h1{
+
+    @apply text-[#000] font-Bricolage font-semibold 
+
+     
+    text-[]
+    md:text-[]
+    lg:text-[80px]
+    leading-[112%]
+
+    w-[]
+    md:w-[]
+    lg:w-[605px]
+
+
+    pt-[]
+    lg:pt-[230px]
+}
+
+.text_part p{
+
+    @apply text-[#000] font-Abeezz font-normal
+
+    text-[]
+    md:text-[]
+    lg:text-[26px]
+
+    w-[]
+    md:w-[]
+    lg:w-[608px]
+
+    lg:mt-[51px]
+    lg:mb-[41px]
+}
+
+.text_part .Click{
+
+    @apply 
+    
+    w-[]
+    md:w-[]
+    lg:w-[85px]
+
+
+}
+
+
+.text_part .Clic{
+
+    @apply 
+    
+    w-[]
+    md:w-[]
+    lg:w-[80px]
+
+}
+
+.buttons_bati{
+
+    @apply flex gap-[25px] 
+}
+
+.buttons_bati button img{
+
+    @apply shadow-[0px_0px_6px_5px_rgba(0,_0,_0,_0.1)]
+
+    rounded-full
+
+    hover:shadow-none  
+
+     hover:animate-spin transition-all duration-[10s]
+}
+
+
+.animation_part .cercel_div{
+
+    @apply bg-[#F5DE6E] rounded-full
+
+    w-[]
+    md:w-[]
+    lg:w-[1945px]
+    lg:h-[1945px]
+
+
+    lg:bottom-[-1400px] lg:right-[-900px]
+}
+
+.cercel_div .bati img{
+
+    @apply 
+
+    w-[]
+    md:w-[]
+    lg:w-[450px]
+
+    absolute
+}
+
+
+.cercel_div .bati_1 img{
+
+    @apply 
+
+    lg:top-[-100px]    left-[300px]
+}
+
+.cercel_div .bati_2 img{
+
+    @apply 
+
+    lg:left-[-200px]    lg:top-[700px]
+}
+
+
+.cercel_div .bati_3 img{
+
+    @apply 
+
+    lg:bottom-[-160px]    left-[777px]
+}
+
+
+.cercel_div .bati_4 img{
+
+    @apply 
+
+    lg:right-[-200px]    lg:top-[800px]
+}

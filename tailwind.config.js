@@ -1,27 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
 
-    container:{
-      center:true,
+    fontFamily: {
+      'Abeezz':["ABeeZee", 'serif'],
+      'Bricolage':["Bricolage Grotesque", 'serif']
+
+    },
+
+
+    container: {
+
+      center: true,
+
       padding: {
-        DEFAULT: '10px',
-        sm: '15px',
+        DEFAULT: '18px',
+        sm: '2rem',
         lg: '4rem',
         xl: '5rem',
         '2xl': '6rem',
       },
+
     },
 
-    fontFamily:{
-
-      'Abeezz':["ABeeZee", 'serif'],
-      'Bricolage Grotesque':["Bricolage Grotesque", 'serif']
-    },
 
     extend: {},
   },
   plugins: [],
 }
-

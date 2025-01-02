@@ -1,0 +1,51 @@
+
+
+.all_mina_nav{
+
+    @apply absolute  top-0 left-0 w-full 
+}
+
+
+.mina_nav{
+
+    @apply flex justify-between items-center
+
+
+    pt-0
+    md:pt-0
+    lg:pt-[50px]
+}
+
+
+.mina_nav .logo_part img{
+
+    @apply 
+
+    w-[]
+    md:w-[] 
+    lg:w-[101px]
+}
+
+
+.mina_nav .text_part ul{
+
+    @apply flex items-center text-[#000] font-medium font-Abeezz
+
+    gap-0
+    md:gap-[]
+    lg:gap-[30px]
+
+    text-[]
+    md:text-[]
+    lg:text-[20px]
+}
+
+.mina_nav .text_part ul li a{
+
+    @apply hover:text-gray-400 transition-all duration-[.4s]
+}
+
+
+
+
+
