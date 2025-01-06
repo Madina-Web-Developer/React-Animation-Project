@@ -3,7 +3,7 @@
 
 .all_mina_Banner{
 
-    @apply  w-full h-screen
+    @apply  w-full lg:h-screen h-[500px]
 }
 
 .text_part .heading h1{
@@ -96,7 +96,7 @@
     lg:h-[2100px]
 
 
-    bottom-[500px] right-[0px]
+    bottom-[500px] right-[-50px]
 
     lg:bottom-[-1600px] lg:right-[-1300px]
 
@@ -152,7 +152,7 @@
 
     @apply 
 
-    bottom-[0]  left-[0]
+    bottom-[-24px]  left-[71px]
   
     lg:bottom-[-150px]    lg:left-[950px]
 
@@ -165,7 +165,7 @@
     @apply 
 
 
-    top-[0]  right-[0]
+    top-[66px]  right-[-26px]
 
     lg:right-[-150px]    lg:top-[924px]
     xl:right-[-152px]    xl:top-[1037px]
