@@ -3,7 +3,7 @@
 
 .all_mina_Banner{
 
-    @apply bg-[#fff7cf] w-full h-screen
+    @apply  w-full h-screen
 }
 
 .text_part .heading h1{
@@ -11,17 +11,17 @@
     @apply text-[#000] font-Bricolage font-semibold 
 
      
-    text-[]
+    text-[15px]
     md:text-[]
     lg:text-[80px]
     leading-[112%]
 
-    w-[]
-    md:w-[]
+    w-[100px]
+    md:w-[50px]
     lg:w-[605px]
 
 
-    pt-[]
+    pt-[100px]
     lg:pt-[230px]
 }
 
@@ -29,14 +29,17 @@
 
     @apply text-[#000] font-Abeezz font-normal
 
-    text-[]
+    text-[8px]
     md:text-[]
     lg:text-[26px]
 
-    w-[]
+    w-[110px]
     md:w-[]
-    lg:w-[608px]
+    lg:w-[450px]
 
+    mb-[10px]
+    mt-[10px]
+    md:mt-[]
     lg:mt-[51px]
     lg:mb-[41px]
 }
@@ -45,9 +48,9 @@
 
     @apply 
     
-    w-[]
+    w-[20px]
     md:w-[]
-    lg:w-[85px]
+    lg:w-[55px]
 
 
 }
@@ -57,20 +60,22 @@
 
     @apply 
     
-    w-[]
+    w-[20px]
     md:w-[]
-    lg:w-[80px]
+    lg:w-[50px]
 
 }
 
 .buttons_bati{
 
-    @apply flex gap-[25px] 
+    @apply flex lg:gap-[15px] gap-[6px]
 }
 
 .buttons_bati button img{
 
-    @apply shadow-[0px_0px_6px_5px_rgba(0,_0,_0,_0.1)]
+    @apply lg:shadow-[0px_0px_6px_5px_rgba(0,_0,_0,_0.1)]
+
+
 
     rounded-full
 
@@ -82,26 +87,39 @@
 
 .animation_part .cercel_div{
 
-    @apply bg-[#F5DE6E] rounded-full
+    @apply rounded-full
 
-    w-[]
+    w-[200px]
+    h-[200px]
     md:w-[]
-    lg:w-[1945px]
-    lg:h-[1945px]
+    lg:w-[2100px]
+    lg:h-[2100px]
 
 
-    lg:bottom-[-1400px] lg:right-[-900px]
+    bottom-[500px] right-[0px]
+
+    lg:bottom-[-1600px] lg:right-[-1300px]
+
+    xl:bottom-[-1600px] xl:right-[-1000px]
+}
+
+
+.cercel_div{
+
+    @apply absolute  transition-all duration-[1s]
 }
 
 .cercel_div .bati img{
 
     @apply 
 
-    w-[]
+    w-[60px]
     md:w-[]
-    lg:w-[450px]
+    lg:w-[330px]
 
     absolute
+
+   
 }
 
 
@@ -109,14 +127,24 @@
 
     @apply 
 
-    lg:top-[-100px]    left-[300px]
+    top-[-28px]  left-[64px]
+
+    lg:top-[15px]    lg:left-[300px]
+
+    xl:top-[-15px]    xl:left-[400px]
 }
 
 .cercel_div .bati_2 img{
 
     @apply 
 
-    lg:left-[-200px]    lg:top-[700px]
+
+    top-[60px]  left-[-24px]
+
+    lg:left-[-150px]    lg:top-[870px]
+
+    xl:left-[-133px]    xl:top-[768px]
+    
 }
 
 
@@ -124,7 +152,11 @@
 
     @apply 
 
-    lg:bottom-[-160px]    left-[777px]
+    bottom-[0]  left-[0]
+  
+    lg:bottom-[-150px]    lg:left-[950px]
+
+    xl:bottom-[-161px]    xl:left-[880px]
 }
 
 
@@ -132,5 +164,9 @@
 
     @apply 
 
-    lg:right-[-200px]    lg:top-[800px]
+
+    top-[0]  right-[0]
+
+    lg:right-[-150px]    lg:top-[924px]
+    xl:right-[-152px]    xl:top-[1037px]
 }
