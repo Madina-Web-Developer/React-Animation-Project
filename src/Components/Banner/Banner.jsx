@@ -17,7 +17,8 @@ const Banner = () => {
 
   return (
     <div>
-        <div className={`all_mina_Banner relative transition-all duration-[1s] overflow-hidden ${bgcolor.background}`}>
+        <div className={`all_mina_Banner relative transition-all overflow-hidden duration-[1s]  ${bgcolor.background}`}>
+
             <div className="container">
 
            

@@ -3,7 +3,7 @@
 
 .all_mina_Banner{
 
-    @apply  w-full lg:h-screen h-[500px]
+    @apply  w-full lg:min-h-screen h-screen
 }
 
 .text_part .heading h1{
@@ -21,8 +21,8 @@
     lg:w-[605px]
 
 
-    pt-[100px]
-    lg:pt-[230px]
+    pt-[80px]
+    lg:pt-[180px]
 }
 
 .text_part p{
@@ -40,8 +40,8 @@
     mb-[10px]
     mt-[10px]
     md:mt-[]
-    lg:mt-[51px]
-    lg:mb-[41px]
+    lg:mt-[50px]
+    lg:mb-[40px]
 }
 
 .text_part .Click{
@@ -77,12 +77,12 @@
 
 
 
-    rounded-full
+   
 
     hover:shadow-none  
-
-     hover:animate-spin transition-all duration-[10s]
+    rounded-full hover:scale-[1.1] duration-150
 }
+
 
 
 .animation_part .cercel_div{
@@ -98,7 +98,7 @@
 
     bottom-[500px] right-[-50px]
 
-    lg:bottom-[-1600px] lg:right-[-1300px]
+    lg:bottom-[-1650px] lg:right-[-1300px]
 
     xl:bottom-[-1600px] xl:right-[-1000px]
 }
@@ -115,7 +115,7 @@
 
     w-[60px]
     md:w-[]
-    lg:w-[330px]
+    lg:w-[340px]
 
     absolute
 
